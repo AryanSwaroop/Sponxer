@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.logo {
+  height: 300px;
+  width: 300px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,11 +33,34 @@
   color: #61dafb;
 }
 
+a { 
+  text-decoration: none; 
+  color: black; 
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width:375px) and (max-width:800px) {
+    
+
+  .baseDiv{
+    align-items: center;
+  }
+
+  .logo{
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
+
+  .Heading{
+    margin-top: 0;
+    font-size: 40px ;
   }
 }
