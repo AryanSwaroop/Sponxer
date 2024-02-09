@@ -9,7 +9,7 @@ function App() {
     <h1 className='Heading body'><b>SITE UNDER CONSTRUCTION</b></h1>
 
     <div className='LogoDiv'>
-    <a href='https://www.instagram.com/sponxer_official/'>
+    <a href='https://www.instagram.com/sponxer.official/'>
     <span><img src='instagram.svg' className='icon'></img> </span>
     <h3 className='text'>@Sponxer_official</h3>
     </a>
